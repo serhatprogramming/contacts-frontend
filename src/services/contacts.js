@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:3001/api/contacts";
+const API_URL = "/api/contacts";
 
 const getContacts = async () => {
   const response = await axios.get(API_URL);
